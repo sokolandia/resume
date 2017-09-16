@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v16/ek4gzZ-GeXAPcSbHtCeQI_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+        }
+        body {
+            margin: 0;
+            font: 100%/1.618 Roboto, sans-serif;
+            margin-bottom: 16px;
+        }
+        .header {
+            width: 20%;
+            text-align: end;
+            font-size: 24px;
+            margin-left: 0;
+            border-right-style: groove;
+            margin-top: 12px;
+            padding-right: 6px;
+            padding-left: 0;
+            padding-top: 16px;
+            padding-bottom: 0;
+            box-sizing: border-box;
+        }
+        .block {
+            page-break-inside: avoid;
+        }
+        .block-container {
+            display: flex;
+        }
+        .block-title {
+            width: 20%;
+            text-align: end;
+            font-weight: 600;
+            text-decoration: underline;
+            font-size: large;
+            border-right-style: groove;
+            padding-left: 0;
+            padding-right: 6px;
+            padding-top: 26px;
+            padding-bottom: 8px;
+            box-sizing: border-box;
+        }
+        .block-sub-title {
+            width: 20%;
+            text-align: end;
+            display: inline-block;
+            padding-right: 6px;
+            padding-left: 0;
+            border-right-style: groove;
+            font-style: italic;
+            box-sizing: border-box;
+        }
+        .block-section {
+            display: inline-block;
+            width: 78%;
+            margin-left: 12px;
+        }
+        .company__logo {
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .company__logo img {
+            height: 54px;
+            vertical-align: middle;
+        }
+        .company__header {
+            display: inline-block;
+            vertical-align: middle;
+            font-weight: 600;
+            margin-left: 16px;
+        }
+        .company__title {
+            font-size: large;
+        }
+        .company__responsibilities-title {
+            margin-top: 16px;
+            text-transform: uppercase;
+        }
+        .company__responsibilities-list ul {
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+<div class="header">Curriculum Vitae</div>
+<div class="block">
+    <div class="block-title">Personal info</div>
+
+    <div class="block-sub-title">Name:</div><div class="block-section">Andrew Sokolowski</div>
+    <div class="block-sub-title">Address:</div><div class="block-section">Kiev, Ukraine</div>
+    <div class="block-sub-title">Telephone:</div><div class="block-section">+38(050)3308139</div>
+    <div class="block-sub-title">E-mail:</div><div class="block-section"><a href="mailto:sokolandia@gmail.com">sokolandia@gmail.com</a></div>
+    <div class="block-sub-title">Skype:</div><div class="block-section">sokolandia_90</div>
+    <div class="block-sub-title">LinkedIn:</div><div class="block-section"><a href="https://www.linkedin.com/in/andrewsokolowski/">https://www.linkedin.com/in/andrewsokolowski/</a></div>
+    <div class="block-sub-title">Date of birth:</div><div class="block-section">26.02.1990, Kiev, Ukraine</div>
+
+</div>
+<div class="block">
+    <div class="block-title">Summary</div>
+    <div class="block-container">
+        <div class="block-sub-title"></div>
+        <div class="block-section">
+            <div>Self-taught IT Professional with 3 years of experience specializing in front and back-end development for dynamic event-driven single page applications. My formal economics education led me down a path to analytics and data mining which in turn sparked a life changing interest in programming and web technologies. I write testable, maintainable and modular code and like to create logical and systematic solutions to complex problems. Lifelong learner with focus on cutting edge technologies and innovation.</div>
+            <div class="block-list">
+                <ul>
+                    <li>Technical conception and implementation of front-end product features, using a modern single page applications Web UI's architecture.</li>
+                    <li>Experience with agile process using Scrum methodology.</li>
+                    <li>Experience with version control systems.</li>
+                    <li>Understanding of software development life cycles.</li>
+                    <li>Strong knowledge in cross browser compatibility issues and W3C standards.</li>
+                    <li>Excellent experience in Restful Web services and implementing RESTful API's.</li>
+                    <li>Application and promotion of good development practices among the team and participation in front-end code reviews to provide qualified feedback to other team members.</li>
+                    <li>Ability to communicate effectively and clearly in English, both verbally and in writing.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="block">
+    <div class="block-title">Skills</div>
+    <div class="block-sub-title">Technologies:</div><div class="block-section">Python, JavaScript (ES5, 6, 7), HTML5, CSS3, REST, SQL</div>
+    <div class="block-sub-title">Frameworks:</div><div class="block-section" style="white-space: nowrap;">Google Cloud Platform, AngularJS, TypeScript, Firebase, AMP, Sass, d3.js, JQuery</div>
+    <div class="block-sub-title">Tools:</div><div class="block-section">Grunt, Webpack, RequireJS, NPM, Bower, Git</div>
+    <div class="block-sub-title">Disciplines:</div><div class="block-section">Math, Statistics, Probability, Game theory, Machine Learning, Artificial Intelligence</div>
+</div>
+
+<div class="block">
+    <div class="block-title">Experience</div>
+    <div class="block-container">
+        <div class="block-sub-title">June 2015 - present</div>
+        <div class="block-section block-section--company">
+            <div class="company__logo">
+                <img src="brancher-logo.png">
+            </div>
+            <div class="company__header">
+                <div class="company__title">Brancher, Kiev, Ukraine</div>
+                <div class="company__position">Co-founder, Full Stack Developer</div>
+            </div>
+            <div class="company__description">
+                Brancher lets you explore, manage and share your browser history in a totally new visual way.
+                Powerful online research and websurfing tool. Fully secure and free browser history.
+            </div>
+            <div class="company__url">
+                <a href="https://brancher.io/trending?openFirst=1">
+                    https://brancher.io
+                </a>
+            </div>
+            <div class="company__url">
+                <a href="https://chrome.google.com/webstore/detail/brancher-visual-history-m/dfanhpdcmhemhkjafmannijhneiplgec">
+                    https://chrome.google.com/webstore/detail/dfanhpdcmhemhkjafmannijhneiplgec
+                </a>
+            </div>
+            <div class="company__responsibilities-title">Responsibilities:</div>
+            <div class="block-list company__responsibilities-list">
+                <ul>
+                    <li>Create back-end architecture with google app engine python platform</li>
+                    <li>Design, implementation of RESTful APIs (JSON, HTML, XML)</li>
+                    <li>Develop UI components, interface, navigation and data layer in a Single Page Application with AngularJS and AJAX</li>
+                    <li>Real-time data synchronization and multi-user collaboration with Firebase</li>
+                    <li>Complex visualizations and dynamic animations with d3.v4</li>
+                    <li>Development of a chrome extension using a wide range of chrome APIs</li>
+                    <li>Integration of third-party APIs (google+, google maps, facebook, youtube, pocket, amazon)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="block">
+    <div class="block-title">Education</div>
+
+    <div class="block-container">
+        <div class="block-sub-title">2007 – 2011</div>
+        <div class="block-section">
+            <div>Kyiv National Economic University / International Economics / Bachelor</div>
+        </div>
+    </div>
+
+    <div class="block-container">
+        <div class="block-sub-title">2011 – 2015</div>
+        <div class="block-section">
+            <div>Coursera / Machine Learning</div>
+            <div>Coursera / Introduction to Databases</div>
+            <div>Coursera / Introduction to Logic</div>
+            <div>Coursera / Algorithms: Design and Analysis</div>
+            <div>Coursera / Web Intelligence and Big Data</div>
+            <div>Coursera / An Introduction to Interactive Programming in Python</div>
+            <div>Coursera / Artificial Intelligence Planning</div>
+            <div>Udacity / Introduction to Artificial Intelligence</div>
+            <div>Udacity / Intro to Algorithms</div>
+            <div>Udacity / Web Development</div>
+            <div>Udacity / Intro to Statistics</div>
+            <div>Udacity / Artificial Intelligence for Robotics</div>
+            <div>Udacity / Design of Computer Programs</div>
+            <div>Edx / Introduction to Statistics</div>
+            <div>Edx / Artificial Intelligence</div>
+            <div>Khanacademy / Trigonometry</div>
+            <div>Khanacademy / Precalculus</div>
+            <div>Khanacademy / Calculus</div>
+            <div>Khanacademy / Statistics and probability</div>
+            <div>Khanacademy / Differential equations</div>
+            <div>Khanacademy / Linear algebra</div>
+        </div>
+    </div>
+
+</div>
+
+<div class="block">
+    <div class="block-title">Languages</div>
+    <div class="block-container">
+        <div class="block-sub-title"></div>
+        <div class="block-section">
+            <div>English (professional)</div>
+            <div>Russian</div>
+            <div>Ukrainian</div>
+        </div>
+    </div>
+</div>
+
+<div class="block">
+    <div class="block-title">Accounts</div>
+    <div class="block-sub-title">Github:</div>
+    <div class="block-section" style="display: inline">
+        <a href="https://github.com/sokolandia">
+            https://github.com/sokolandia
+        </a>
+    </div>
+    <div></div>
+    <div class="block-sub-title">Stackoverflow:</div>
+    <div class="block-section" style="display: inline">
+        <a href="https://stackoverflow.com/users/1504867/andrewsokolowski">
+            https://stackoverflow.com/users/1504867/andrewsokolowski
+        </a>
+    </div>
+</div>
+
+<div class="block">
+    <div class="block-title">Hobbies</div>
+    <div class="block-container">
+        <div class="block-sub-title"></div>
+        <div class="block-section">
+            <div>Hatha yoga</div>
+            <div>Skiing</div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
